@@ -19,6 +19,6 @@ services:
     ports:
       - "8580:80"
     links:
-      - db     
+      - db
 volumes:
-  db-data: 
+  db-data:
